@@ -24,10 +24,10 @@
             <div class="form-input">
                 <input type="text" placeholder="ยืนยันรหัสผ่าน">
             </div>
-            <div>
+            <div class="form-input button">
                 <input type="submit" value="สมัครสมาชิก">
             </div>
-            <div>
+            <div class="form-link">
                 มีบัญชีอยู่แล้วใช่หรือไม่?
                 <a href="">เข้าสู่ระบบ</a>
             </div>
