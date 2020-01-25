@@ -1,3 +1,9 @@
 <?php
+include_once '../configs/database.php';
 
-print_r($_POST);
+$result = $mysqli->query('SELECT * FROM users');
+echo '<pre>';
+print_r($result->fetch_all(MYSQLI_ASSOC));
+echo '</pre>';
+
+// print_r($_POST);
