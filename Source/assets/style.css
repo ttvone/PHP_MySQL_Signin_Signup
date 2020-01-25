@@ -51,6 +51,9 @@ body {
     border: solid 1px #F2F2F2;
     padding-left: 15px;
     padding-right: 15px;
+    color: #909090;
+    font-family: 'Kanit', sans-serif;
+    font-size: 16px;
 }
 
 .form-input input:focus {

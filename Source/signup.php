@@ -11,18 +11,18 @@
 
 <body>
     <div class="container">
-        <form class="form-box">
+        <form class="form-box" action="./actions/signup.php" method="POST">
             <div class="form-input">
-                <input type="text" placeholder="ชื่อและนามสกุล">
+                <input type="text" placeholder="ชื่อและนามสกุล" name="name" required>
             </div>
             <div class="form-input">
-                <input type="text" placeholder="ชื่อผู้ใช้งาน">
+                <input type="text" placeholder="ชื่อผู้ใช้งาน" name="username" required>
             </div>
             <div class="form-input">
-                <input type="text" placeholder="รหัสผ่าน">
+                <input type="password" placeholder="รหัสผ่าน" name="password" id="pass" required>
             </div>
             <div class="form-input">
-                <input type="text" placeholder="ยืนยันรหัสผ่าน">
+                <input type="password" placeholder="ยืนยันรหัสผ่าน" name="cpassword" id="cpass" required>
             </div>
             <div class="form-input button">
                 <input type="submit" value="สมัครสมาชิก">
@@ -33,6 +33,17 @@
             </div>
         </form>
     </div>
+
+    <script>
+        var pass = document.getElementById('pass');
+        var cpass = document.getElementById('cpass');
+        pass.onchange = comparePasswordValid;
+        cpass.oninput = comparePasswordValid;
+        function comparePasswordValid() {
+            if (pass.value != cpass.value) cpass.setCustomValidity('password and confirm password is not match.');
+            else cpass.setCustomValidity('');
+        }
+    </script>
 </body>
 
 </html>
