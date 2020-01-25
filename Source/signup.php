@@ -11,17 +11,17 @@
 
 <body>
     <div class="container">
-        <form action="">
-            <div>
+        <form class="form-box">
+            <div class="form-input">
                 <input type="text" placeholder="ชื่อและนามสกุล">
             </div>
-            <div>
+            <div class="form-input">
                 <input type="text" placeholder="ชื่อผู้ใช้งาน">
             </div>
-            <div>
+            <div class="form-input">
                 <input type="text" placeholder="รหัสผ่าน">
             </div>
-            <div>
+            <div class="form-input">
                 <input type="text" placeholder="ยืนยันรหัสผ่าน">
             </div>
             <div>

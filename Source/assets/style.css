@@ -22,3 +22,53 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.form-box {
+    width: 600px;
+    background-color: #FFFFFF;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.form-input {
+    width: 450px;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+.form-input input {
+    height: 50px;
+    width: 100%;
+    background-color: #F2F2F2;
+    border: solid 1px #F2F2F2;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.form-input input:focus {
+    outline: none;
+    border-color: #37DB79;
+}
+
+.form-input input::-webkit-input-placeholder {
+    /* Edge */
+    color: #BBBBBB;
+    font-family: 'Kanit', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.form-input input:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #BBBBBB;
+    font-family: 'Kanit', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.form-input input::placeholder {
+    color: #BBBBBB;
+    font-family: 'Kanit', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
