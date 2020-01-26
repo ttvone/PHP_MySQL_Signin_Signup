@@ -11,7 +11,7 @@
 
 <body>
     <div class="container">
-        <form class="form-box" action="./actions/signup.php" method="POST">
+        <form class="form-box" action="./actions/signin.php" method="POST">
             <div class="form-input">
                 <input type="text" placeholder="ชื่อผู้ใช้งาน" name="username" required>
             </div>
