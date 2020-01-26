@@ -20,10 +20,10 @@
             </div>
 
             <div class="form-input">
-                <input type="text" placeholder="ชื่อผู้ใช้งาน">
+                <input type="text" placeholder="ชื่อและนามสกุล" value="<?= $user_login['user_name'] ?>" readonly>
             </div>
             <div class="form-input">
-                <input type="password" placeholder="รหัสผ่าน">
+                <input type="text" placeholder="ชื่อผู้งาน" value="<?= $user_login['user_username'] ?>" readonly>
             </div>
             <div class="form-input button">
                 <input type="submit" value="ออกจากระบบ">
