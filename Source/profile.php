@@ -1,3 +1,5 @@
+<?php require_once './shareds/profile.php'; ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
